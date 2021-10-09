@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    box-sizing: border-box;
+    width: 100vw;
+}
+.background-color{
+    width: 100vw;
+    height: 25vh;
+    background: url("../images/1.gif");
+}
+.background-color h3{
+    
+    opacity: 0.9;
+}
+.background-color h3{
+    
+    background-color: pink;
+    color: black;
+    border: 9px solid rgb(43, 255, 0.5,0.5);
+
+}
+.background-color p{
+    font-family: "Sofia", sans-serif;
+    text-decoration: underline;
+    color: blue;
+    background-color: hsla(9, 45%, 38%, 0.5);
+}
+.background-image{
+    width: 100%;
+    height: 16vh;
+    background: url("../images/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    border: 3px dotted red;
+  
+}
+.background-image2{
+    width: 100%;
+    box-sizing: border-box;
+    height: 16vh;
+    background: url("../images/2.gif");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    border: 5px groove green;
+  
+}
+.background-size{
+    width: 100%;
+    height: 2vh;
+    background: url("../images/3.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.border{
+    border: 5px solid pink;
+}
+.border p{
+    box-sizing: border-box;
+    text-align: justify;
+    letter-spacing: 15px;
+    border: 4px inset blueviolet;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.border h4{
+    text-shadow: 0 0 5px red;
+    text-decoration: line-through;
+    border: 6px outset blue;
+    border-radius: 30%;
+    filter: sepia(90%);
+    text-transform: uppercase;
+}
+.border h5{
+    text-shadow: 0 0 5px blue,0 0 7px yellow;
+    text-transform: lowercase;
+    text-decoration: overline;
+    border-style: groove solid dotted inset;
+    border-width: 4px 10px 4px 9px;
+    filter: blur(1px);
+    border-color: red pink green blue;
+}
+.margin{
+    width: 70%;
+    height: 50vh;
+    border-style: inset outset groove dashed;
+    border-width: 4px 6px 19px 20px;
+    margin: 10px auto 30px auto;
+    background: url("../images/4.gif");
+    display: flex;
+    filter: sepia(100%);
+
+}
+.margin .div1{
+    width: 10vw;
+    height: 15vh;
+    background-color: red;
+    background: url("../images/5.gif");
+    filter: grayscale(100%);
+}
+.margin .div2{
+    width: 20vw;
+    height: 40vh;
+    background-color: blue;
+    background: url("../images/6.gif");
+    margin: 50px 83px;
+}
+.margin .div3{
+    width: 40vw;
+    height: 30vh;
+    background-color: green;
+    background: url("../images/7.gif");
+}
+
+.padding{
+    width: 30vw;
+    margin: 60px auto ;
+    border: 2px solid green;
+    padding: 40px 0 60px 60px ;
+    background: rgba(255,255,255,0.9);
+
+}
+.box-background{
+    background: url("../images/8.gif");
+    filter: hue-rotate(180deg);
+    
+}
+.width{
+    max-width: 40vw;
+    height: 40vh;
+    background: url("../images/9.gif");
+    filter:drop-shadow(8px 8px 10px green);
+   
+}
+.height{
+    width: 20vw;
+    max-height: 40vh;
+    background: url("../images/10.gif");
+}
+.height:hover{
+    transform: scaleX(-1);
+}
+.width-height{
+    display: flex;
+    justify-content: space-between;
+
+}
+.boxmodel{
+    height: 3vw;
+    width: 40vh;
+    margin: 0 auto 50vh auto;
+    padding: 50px;
+    outline-color: red;
+    outline-style: inset;
+    outline-width: 200px;
+}
+.boxelement{
+    border: 1px solid black;
+    margin: auto;
+    box-sizing: border-box;
+}
+.outlineoffset{
+    border: 2px solid pink;
+    width: max-content;
+    margin: 50px auto;
+    outline-color: green;
+    outline-style: dashed;
+    outline-width: 5px;
+    outline-offset: 600px;
+
+}
+.text-color{
+    background-color: red;
+    color:white;
+    text-align: center;
+}
+.text-align{
+    text-transform: capitalize;
+    width: 40%;
+    text-align: justify;
+    margin: 3px auto;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    letter-spacing: -5px;
+
+}
+.whitespace{
+    width: 70%;
+}
+.whitespace p{
+    font-size: 54px;
+    text-shadow: 4px 4px;
+    
+    white-space: nowrap;
+}
+.whitespace h1{
+    text-shadow: 2px 2px red;
+}
+.whitespace h2{
+    text-shadow: 3px 3px 5px greenyellow;
+}
+.links a:hover{
+    text-shadow:  0 0 5 px greenyellow;
+    text-decoration: none;
+    border: 4px dashed pink;    
+}
+.a,.b,.c,.d{
+    margin:90px;
+}
+.lists{
+    display:  flex;
+    padding: 50px;
+}
+.b{
+    list-style-type: square;
+}
+.links2 .btn{
+    background-color: rgb(233, 116, 116);
+    border-radius: 5%;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+.links2 .one:hover{
+    background-color: red;
+    color: yellow;
+    font-size: 200%;
+    background-color: green;
+    text-decoration: none;
+}
+.lists .c{
+    background: pink;
+    padding: 20px;
+}
+.lists .c li{
+    background-color: greenyellow;
+    margin: 5px;
+}
+.table .table1 table{
+    box-sizing: border-box;
+    width: 95vw;
+    
+}
+.table1 table,tr,td,th{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: bottom;
+}
+.table2 table{
+    box-sizing: border-box;
+    width: 90%;
+    border-collapse: collapse;
+}
+.table2 table,tr,td,th{
+    border: 1px solid black;
+}
+.table2 table th{
+    height: 30vh;
+}
+th:hover{
+    background-color: yellow;
+}
+tr:nth-child(even){
+    background-color: pink;
+}
+tr:nth-child(odd){
+    background-color: red;
+}
+tr:nth-child(even):hover{
+    background-color: greenyellow;
+}
+tr:nth-child(odd):hover{
+    background-color: indigo;
+}
+
+.display h1{
+    display: inline;
+    background: url("../images/11.gif");
+}
+.display p{
+    display: inline;
+    background: url('../images/12.gif');
+
+}
+.display h3{
+    display: inline;
+    background: url("../images/14.gif");
+}
+.display h3 span{
+    visibility: hidden;
+}
+.position .static{
+    position: static;
+    width: 50vw;
+    height: 35vh;
+    background:url("../images/16.gif");
+
+}
+.position .relative{
+    position: relative;
+    width: 40vw;
+    height: 10vh;
+    background: url("../images/17.gif");
+    top:-90vh;
+    
+}
+.position .fixed{
+    height: 50vh;
+    width: 30vw;
+    position: fixed;
+    background: url("../images/19.gif");
+    top:80vh;
+    right:5vw;
+}
+.position .absolute{
+    height: 30vh;
+    width: 40vw;
+    
+    background: url("../images/20.gif");
+    position: absolute;
+    left: 50vw;
+    top: -1vh;
+
+}
+.position .sticky{
+    height: 30vh;
+    width: 10vw;
+    background: url("../images/21.gif");
+    position: sticky;
+    top:0px;
+}
+.position{
+    position: relative;
+}
+.z-index{
+    position: relative;
+}
+.z-index img{
+    position: absolute;
+    z-index: -3;
+    top: -5vh;
+    
+    
+}
+.overflow{
+    overflow: visible;
+ 
+    width: 100vw;
+    display: flex;
+}
+.overflow .hidden{
+    background: url("../images/22.gif");
+    width: 25vw;
+    height: 30vh;
+    overflow: hidden;
+    transform: rotateZ(66deg);
+
+}
+.overflow .scroll{
+    background: url("../images/27.gif");
+    transform: skewX(41deg);
+
+    width: 25vw;
+    height: 30vh;
+    overflow: scroll;
+
+}
+.overflow .scroll:hover{
+    transform: skewY(-51deg);
+    transition: 3s ease;
+}
+.overflow .auto{
+    background: url("../images/28.gif");
+    transform: rotateX(180deg);
+
+    width: 25vw;
+    height: 30vh;
+    overflow: auto;
+
+}
+.overflow .visible{
+    overflow: visible;
+    background: url("../images/25.gif");
+
+    width: 25vw;
+    transform: skewY(10deg);
+    height: 30vh;
+
+}
+.overflow .visible:hover{
+    transform: skewX(-23deg);
+    transition: 2s ease;
+    
+}
+.float{
+    width: 100%;
+    box-sizing: border-box;
+}
+.float img{
+    float: right;
+    opacity: 0.5;
+}
+.float img:hover{
+    opacity: 1;
+}
+.float div{
+    float: right;
+}
+.opacity{
+    margin: auto;
+    background: url("../images/16.gif");
+    width: 50vw;
+    height: 30vh;
+}
+.opacity p{
+    margin: 10%;
+    background: rgb(255, 255, 255,0.5)
+}
+.navbar .vertical{
+    width: 10vw;
+}
+.navbar .vertical ul li{
+ 
+    padding: 5px;
+
+    text-transform: uppercase;
+}
+.navbar .vertical ul{
+    background-color: rgba(240, 237, 237, 0.9);
+    text-decoration:none;
+}
+.navbar .vertical ul li:hover{
+    background-color: gray;
+
+}
+.navbar .vertical ul li:first-child{
+    background-color: chartreuse;
+}
+.navbar .vertical ul li a{
+    text-decoration:  none;
+    color: black;
+
+}
+.dropdown {
+    width:100%;
+    height: auto;
+}
+.navbar{
+    border-image: url('../images/1.jpg') 40 round; 
+}
+.linear-gradient .div1{
+    width: 90vw;
+  
+    transform: scale(3,2);
+    height: 10vh;
+    background:linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);
+}
+.linear-gradient .div2{
+    width: 90vw;
+    height: 10vh;
+    transform: skewX(45deg);
+    background:linear-gradient(rgba(255,0,0,1) ,rgba(0,0,0,0.1));
+}
+.linear-gradient .div3{
+    width: 90vw;
+    height: 10vh;
+    transform: skewY(-65def);
+    background-image: repeating-radial-gradient(yellow,green 10%,red 20%);
+    animation-name: animatediv3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animatediv3 {
+    20%{
+        background-image: conic-gradient(green,greenyellow,blue);
+    }
+    60%{
+        background-image: repeating-linear-gradient(red,pink,black);
+        width: 10vw;
+    }
+    90%{
+        background-image: radial-gradient(red green);
+    }
+
+    
+}
+.linear-gradient .div4{
+    width: 90vw;
+    height: 10vh;
+    border-radius: 50%;
+    background-image: conic-gradient(red,green,blue,pink );
+}
+.navbar:hover{
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.background-image{
+    transform: translate(10vw,10vh);
+    transform:rotate(75deg);
+}
+.dropdown a img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    -webkit-box-reflect: below;
+}
+.dropdown a img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+}
+@media  screen and (max-width:700px) {
+    body{
+        background-color: pink;
+    }
+    
+}
